@@ -1,4 +1,4 @@
-# My configuration
+# My NVim configuration
 
 ## Remember install with treeseter(`:TSinstall`) the following languajes:
     - c

@@ -24,3 +24,7 @@ PATH="/path/to/dir1:~/go/bin:$PATH"
 
 ```
 
+## Installation
+
+into the lua file found in `/Users/<user>/.config/nvim/lua` clone this repository and rename the file `nvim-custom` to `custom`
+

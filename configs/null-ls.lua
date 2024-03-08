@@ -13,7 +13,6 @@ local opts = {
     null_ls.builtins.formatting.black,
     -- Typescript
     null_ls.builtins.formatting.prettier,
-    null_ls.builtins.diagnostics.eslint,
     -- C
     null_ls.builtins.formatting.clang_format,
   },

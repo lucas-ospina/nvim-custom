@@ -18,7 +18,9 @@ local plugins = {
         "eslint-lsp",
         -- C
         "clangd",
-        "clang-format"
+        "clang-format",
+        -- Rust
+        "rust-analyzer",
       },
     },
   },

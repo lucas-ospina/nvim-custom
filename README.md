@@ -6,6 +6,10 @@
     - go
     - markdown
     - python
+    -rust
+
+## brew Installations
+    - `brew install lazygit`
 
 ## GO
 

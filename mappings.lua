@@ -76,4 +76,44 @@ M.dap_python = {
   }
 }
 
+M.lazygit = {
+  plugin = true,
+  n = {
+    ["<leader>lg"] = {
+      "<cmd> LazyGit <CR>",
+      "Open LazyGit",
+    },
+  },
+}
+
+M.trouble = {
+  plugin= true,
+  n = {
+    ["<leader>tt"] = {
+      "<cmd> TroubleToggle <CR>",
+      "Trouble open"
+    },
+    ["<leader>tw"] = {
+      "<cmd> TroubleToggle workspace_diagnostics <CR>",
+      "Trouble workspace diagnostics",
+    },
+    ["<leader>td"] = {
+      "<cmd> TroubleToggle document_diagnostics <CR>",
+      "Trouble document diagnostics",
+    },
+    ["<leader>tq"] = {
+      "<cmd> TroubleToggle quickfix <CR>",
+      "Trouble quickfix",
+    },
+    ["<leader>tl"] = {
+      "<cmd> TroubleToggle loclist <CR>",
+      "Trouble loclist",
+    },
+    ["<leader>ts"] = {
+      "<cmd> TroubleToggle lsp_references <CR>",
+      "Trouble LSP references",
+    },
+  },
+}
+
 return M

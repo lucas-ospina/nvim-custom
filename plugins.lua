@@ -100,6 +100,7 @@ local plugins = {
   },
   {
     "kdheepak/lazygit.nvim",
+    lazy = false,
     cmd = {
       "LazyGit",
     	"LazyGitConfig",
@@ -111,6 +112,23 @@ local plugins = {
     dependencies = {
       "nvim-lua/plenary.nvim",
     },
+    config = function (_)
+      require("core.utils").load_mappings("lazygit")
+    end
+  },
+  {
+    "folke/trouble.nvim",
+    lazy = false,
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    cmd = {
+      "Trouble",
+      "TroubleClose",
+      "TroubleToggle",
+      "TroubleRefresh",
+    },
+    config = function (_)
+      require("core.utils").load_mappings("trouble")
+    end,
   },
 }
 
